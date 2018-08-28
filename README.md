@@ -1,10 +1,11 @@
-#backstage-management-system#
-此项目是基于Vue2.0+Element UI编译的后台管理系统（写的不够全面，可参考 http://panjiachen.github.io/vue-element-admin或https://github.com/lin-xin/vue-manage-system.git）
+##backstage-management-system##
+此项目是基于Vue2.0+Element UI编译的后台管理系统（写的不够全面，可参考 http://panjiachen.github.io/vue-element-admin
+或https://github.com/lin-xin/vue-manage-system.git）
 
-#前言#
-由于在公司的后台管理项目中，用到的一些常用的功能，也看到一些大神编写的功能，自己总结编译了下，遇到过很多欲罢不能的bug，也积累到了宝贵的经验，重点写了vchart/拖拽这些常用的功能...
+##前言##
+由于在公司的后台管理项目中，用到的一些常用的功能，也看到一些大神编写的功能，自己总结编译了下，遇到过很多欲罢不能的bug，也积累到了宝贵的经验，重点写了vchart/拖拽这些常用的功能
 
-#功能#
+##功能##
     登陆/注销
     首页
     tab选项卡
@@ -46,19 +47,19 @@
 	|-- README.md                        // 说明
 
 
-#安装步骤#
+##安装步骤##
 
     git clone https://@github.com/daweian/backstage-management-system.git
 
     cd backstage-management-system  //进入目录
     npm i       //安装项目依赖
 
-#本地开发#
+##本地开发##
     npm run dev
 
-#构建生产#
+##构建生产##
     npm run build
 
-#踩过的坑#
-    很多用element的插件过程中，样式达不到自己的预期，用js改过，加自己的div来解决，但是很吃力，直接可以对element的样式进行简单的更改就好了
+##踩过的坑##
+    很多用element的插件过程中，样式达不到自己的预期，用js改过，或者添加自己的div来解决，但是很吃力，直接可以对element的样式进行简单的更改就好了，但是尽量避免影响到其他组件中的样式，因为是公共样式。。。。
     
