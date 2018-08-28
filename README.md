@@ -1,4 +1,4 @@
-##backstage-management-system##
+## backstage-management-system ##
 此项目是基于Vue2.0+Element UI编译的后台管理系统（写的不够全面，可参考 http://panjiachen.github.io/vue-element-admin
 或https://github.com/lin-xin/vue-manage-system.git）
 
